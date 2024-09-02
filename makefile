@@ -1,2 +1,2 @@
 build:
-	gcc `pkg-config gtk4 --cflags` main.c `pkg-config gtk4 --libs`
+	gcc `pkg-config gtk4 --cflags` ./src/*.c `pkg-config gtk4 --libs`
